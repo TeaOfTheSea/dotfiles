@@ -108,7 +108,7 @@
   #multiplier: 3
 
 # Font configuration
-#font:
+font:
   # Normal (roman) font face
   #normal:
     # Font family
@@ -156,7 +156,7 @@
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: 8.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -184,9 +184,6 @@
 # Colors (Tomorrow Night)
 colors:
   # Default colors
-  primary:
-    background: '#1e222a'
-    foreground: '#abb2bf'
 
     # Bright and dim foreground colors
     #
@@ -273,26 +270,46 @@ colors:
   #  background: CellForeground
 
   # Normal colors
+  # Default colors
+# Colors (Darktooth)
+
+  # Default colors
+  primary:
+    background: '#282828'
+    foreground: '#fdf4c1'
+
+  # Normal colors
   normal:
-    black:   '#1d1f21'
-    red:     '#e06c75'
-    green:   '#98c379'
-    yellow:  '#e5c07b'
-    blue:    '#61afef'
-    magenta: '#c678dd'
-    cyan:    '#56b6c2'
-    white:   '#abb2bf'
+    black:   '#282828'
+    red:     '#9d0006'
+    green:   '#79740e'
+    yellow:  '#b57614'
+    blue:    '#076678'
+    magenta: '#8f3f71'
+    cyan:    '#00a7af'
+    white:   '#fdf4c1'
 
   # Bright colors
   bright:
-    black:   '#666666'
-    red:     '#e06c75'
-    green:   '#98c379'
-    yellow:  '#e5c07b'
-    blue:    '#61afef'
-    magenta: '#c678dd'
-    cyan:    '#56b6c2'
-    white:   '#c8ccd4'
+    black:   '#32302f'
+    red:     '#fb4933'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#3fd7e5'
+    white:   '#ffffc8'
+
+  # Dim colors (Optional)
+  dim:
+    black:   '#1d2021'
+    red:     '#421e1e'
+    green:   '#232b0f'
+    yellow:  '#4d3b27'
+    blue:    '#2b3c44'
+    magenta: '#4e3d45'
+    cyan:    '#205161'
+    white:   '#f4e8ba'
 
   # Dim colors
   #
@@ -869,3 +886,4 @@ cursor:
 
   # Print all received window events.
   #print_events: false
+
