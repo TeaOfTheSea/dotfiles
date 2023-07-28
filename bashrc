@@ -22,8 +22,10 @@ alias find-pkgs="pacman -Q | grep -w"
 alias find-aur-pkgs='pacman -Qqm | grep -w'
 alias key-issue="sudo pacman -Sy archlinux-keyring && sudo pacman-key --refresh-keys"
 alias ping-watch="sudo tcpdump -i enp2s0 icmp and icmp[icmptype]=icmp-echo"
-alias newNet="python ~/Software/PythonScripts/NetnsCreator/newNet.py"
-alias TTUnet="python ~/Software/PythonScripts/TtuNet/vpnConnect.py"
 alias timezone="curl https://ipapi.co/timezone"
 alias lvim="/home/monkey/.local/bin/lvim"
 alias ll="ls -l"
+alias temp="redshift -x && redshift"
+alias pkg-info="yay -Qii"
+alias find-orphans='orphans=$(yay -Qdt | awk '\''{print $1}'\''); if [ -z "$orphans" ]; then echo "No orphans found."; else yay -Qii $orphans; fi'
+alias remove-orphans='orphans=$(yay -Qdt | awk '\''{print $1}'\''); if [ -z "$orphans" ]; then echo "No orphans found."; else yay -Rns $orphans; fi'
