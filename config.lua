@@ -9,7 +9,6 @@ lvim.keys.normal_mode["d"] = '"_d'
 lvim.keys.visual_mode["d"] = '"_d'
 lvim.keys.normal_mode["x"] = '"+d'
 lvim.keys.normal_mode["xx"] = '"+dd'
-lvim.keys.normal_mode["p"] = '"_dh"+p'
 lvim.keys.visual_mode["p"] = '"_dh"+p'
 
 --Custom insert mode navigation
