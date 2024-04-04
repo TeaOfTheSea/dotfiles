@@ -18,6 +18,7 @@ alias grep='grep --color=auto'
 alias ssh='TERM=xterm-256color ssh'
 alias aliases="python ~/Software/PythonScripts/BashrcListAliases/aliases.py"
 alias diff="diff --color"
+alias find="fzf"
 
 #The next line just says aliases because I use a python script to list all the aliases that I might use at any time because I forget what I name them.
 #aliases
