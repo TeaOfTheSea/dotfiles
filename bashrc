@@ -14,6 +14,7 @@ neofetch
 
 alias ls='ls --color=auto -A'
 alias rm='rm -I'
+alias cp='cp -i'
 alias grep='grep --color=auto'
 alias ssh='TERM=xterm-256color ssh'
 alias aliases="python ~/Software/PythonScripts/BashrcListAliases/aliases.py"
